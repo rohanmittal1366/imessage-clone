@@ -60,3 +60,19 @@
     display: none;
     
 }
+
+
+.chat__messages{
+    flex :1 ;
+    overflow: scroll;
+  
+  }
+  
+  .chat__messages::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .chat__messages{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
