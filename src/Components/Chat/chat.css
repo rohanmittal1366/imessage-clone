@@ -15,6 +15,7 @@
 
 }
 
+
 .chat__header > h4{
     font-weight: 500;
     color: grey;
@@ -25,6 +26,11 @@
     color: black;
 
 }
+
+.chat__messages{
+    flex: 1;
+}
+
 
 .chat__input{
  display: flex;
