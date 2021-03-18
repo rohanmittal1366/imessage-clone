@@ -2,6 +2,7 @@ import { IconButton } from "@material-ui/core";
 import React , {useState} from "react";
 import "./chat.css";
 import MicNoneIcon from '@material-ui/icons/MicNone';
+import Message from "../Messages/Message";
 
 
 
@@ -26,10 +27,8 @@ function Chat() {
       {/* chat messages */}
 
     <div className="chat__messages">
-        <h2>I am a message</h2>
-        <h2>I am a message</h2>
-        <h2>I am a message</h2>
-        <h2>I am a message</h2>
+      <Message />
+        
     </div>
 
 
